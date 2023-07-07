@@ -3,7 +3,8 @@
     "short_name": "Metaballs",
     "icons": [
         {
-            "src": "../imagens/forbidden.png"
+            "src": "../imagens/forbidden.png",
+            "sizes": "192x192"
         }
     ],
 
