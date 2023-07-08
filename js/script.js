@@ -7,9 +7,10 @@ const tela = document.querySelector('body');
 
 var n = 0
 
+
 tela.addEventListener('click', () => {
 
-    
+
 
     if(n === 0) {
 
@@ -45,17 +46,25 @@ tela.addEventListener('click', () => {
         esfera3.classList.replace('meta-green','meta-yellow')
         esfera4.classList.replace('meta-green','meta-yellow')
 
-        n = 4
+        n++
 
     } else if(n === 4) {
 
-        esfera1.classList.replace('meta-yellow','meta1')
-        esfera2.classList.replace('meta-yellow','meta2')
-        esfera3.classList.replace('meta-yellow','meta3')
-        esfera4.classList.replace('meta-yellow','meta4')
+        esfera1.classList.replace('meta-yellow','meta-bluepink')
+        esfera2.classList.replace('meta-yellow','meta-bluepink')
+        esfera3.classList.replace('meta-yellow','meta-bluepink')
+        esfera4.classList.replace('meta-yellow','meta-bluepink')
+
+        n++
+
+    } else if(n === 5) {
+
+        esfera1.classList.replace('meta-bluepink','meta1')
+        esfera2.classList.replace('meta-bluepink','meta2')
+        esfera3.classList.replace('meta-bluepink','meta3')
+        esfera4.classList.replace('meta-bluepink','meta4')
 
         n = 0
-
     }
     
 })

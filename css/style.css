@@ -15,7 +15,7 @@ body {
 
 .wrap {
     background: inherit;
-    animation: 7s spin ease-in-out infinite;
+    animation: 7s spin ease-in-out infinite; 
 }
 
 .meta:before, meta:after {
@@ -26,71 +26,32 @@ body {
     left: 50%;
     top: 50%;
     margin: -50px;
-    background: rgba(160, 230, 245, .9);
+    background: rgba(160, 230, 245, 0.9);
     border-radius: 50%;
     -webkit-filter: blur(25px);
     filter: blur(25px);
     animation: move 12s infinite alternate ease-in-out;
 }
 
+/* cores */
 .meta-red:before, meta-red:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    top: 50%;
-    margin: -50px;
     background: rgba(245, 184, 160, 0.9);
-    border-radius: 50%;
-    -webkit-filter: blur(25px);
-    filter: blur(25px);
-    animation: move 12s infinite alternate ease-in-out;
 }
 
 .meta-purple:before, meta-purple:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    top: 50%;
-    margin: -50px;
     background: rgba(245, 160, 229, 0.9);
-    border-radius: 50%;
-    -webkit-filter: blur(25px);
-    filter: blur(25px);
-    animation: move 12s infinite alternate ease-in-out;
 }
 
 .meta-green:before, meta-green:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    top: 50%;
-    margin: -50px;
     background: rgba(160, 245, 183, 0.9);
-    border-radius: 50%;
-    -webkit-filter: blur(25px);
-    filter: blur(25px);
-    animation: move 12s infinite alternate ease-in-out;
 }
 
 .meta-yellow:before, meta-yellow:after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    top: 50%;
-    margin: -50px;
-    background: rgba(242, 245, 160, 0.9);
-    border-radius: 50%;
-    -webkit-filter: blur(25px);
-    filter: blur(25px);
-    animation: move 12s infinite alternate ease-in-out;
+    background: rgba(242, 245, 160, 0.9); 
+}
+
+.meta-bluepink:before, meta-bluepink:after {
+    background: rgba(181, 160, 245, 0.9);
 }
 
 .meta:before {
@@ -111,6 +72,11 @@ body {
 .meta:nth-child(4):before {
     animation-duration: 16.7s;
     animation-delay: 7.2s;
+}
+
+.meta:after {
+    animation-duration: 17.5s;
+    animation-delay: -12.32s;
 }
 
 .meta:nth-child(2):after {
